@@ -14,8 +14,9 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/panda.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
     </head>
     <body>
@@ -26,12 +27,20 @@
 		<h1><?php print $context['title']?></h1>
 	</header>
 	<nav class=mainnav>
+		<a href="/home">Home</a>
+		<a href="/history">History</a>
 	</nav>
 	<section class=contentcontainer>
+	<div class="main-block">
 	<?php print $context['blocks']['main'] ?>
+	</div>
 	</section>
 	<footer class=mainfooter>
-	<section class=middle>A PandaCare Production</section>
+	<section class=middle>
+		A PandaCare Production<br />
+		Copyright &copy; 2013
+		
+	</section>
 	</footer>
 </body>
 </html>

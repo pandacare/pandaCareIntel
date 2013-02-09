@@ -1,0 +1,51 @@
+a {
+	text-decoration: none;
+}
+
+input:not([type=submit]):not([type=file]) {
+	border: 1px solid #bfbfbf;
+	-webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 0 0 8px rgba(0,0,0,0.1);
+	box-shadow: inset 0 0 8px rgba(0,0,0,0.1);
+}
+.mainheader {
+	text-align: center;
+}
+.mainnav, .contentcontainer, .mainfooter {
+	margin: auto;
+	width: 900px;
+}
+
+.mainnav {
+}
+
+.mainnav a {
+  display: inline-block;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+}
+.mainnav a:link {
+    background: #fefefe; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fefefe 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fefefe 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fefefe 0%,#eeeeee 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fefefe 0%,#eeeeee 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fefefe 0%,#eeeeee 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+  
+}
+.mainfooter {
+	font-size: 9px;
+	text-align: center;
+	padding: 40px 0px 60px 0px; 
+}
+
+.login-form .login-form-item {
+    margin-bottom: 5px;
+}
+.login-form label {
+	display: inline-block;
+	width: 100px;
+}
