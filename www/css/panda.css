@@ -8,6 +8,10 @@ input:not([type=submit]):not([type=file]) {
 	-moz-box-shadow: inset 0 0 8px rgba(0,0,0,0.1);
 	box-shadow: inset 0 0 8px rgba(0,0,0,0.1);
 }
+
+.center {
+  text-align: center;
+}
 .mainheader {
 	text-align: center;
 }
@@ -17,6 +21,7 @@ input:not([type=submit]):not([type=file]) {
 }
 
 .mainnav {
+  text-align: center;
 }
 
 .mainnav a {
@@ -42,6 +47,10 @@ input:not([type=submit]):not([type=file]) {
 	padding: 40px 0px 60px 0px; 
 }
 
+.login-form {
+  width: 305px;
+  margin: auto;
+}
 .login-form .login-form-item {
     margin-bottom: 5px;
 }
