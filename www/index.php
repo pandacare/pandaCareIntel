@@ -23,6 +23,7 @@ else if (preg_match("/^manage\/?$/", $url))
 else if (preg_match("/^example\/?$/", $url))
 {
 	include_once('example.php');
+        // This is comment
 }
 else
 {
